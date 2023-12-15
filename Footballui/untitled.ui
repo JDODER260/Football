@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1140</width>
+    <height>750</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="verticalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>9</x>
+      <y>9</y>
+      <width>1121</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QLabel" name="header">
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:18pt;&quot;&gt;Hello and welcome to JDODER's Football game.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget_2">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>350</y>
+      <width>731</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_2">
+     <item alignment="Qt::AlignTop">
+      <widget class="QLabel" name="login_label">
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;, style=&quot;background-color: gold;&quot;&gt;&lt;span style=&quot; font-size:22pt;&quot;&gt;Login Or Create&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="login">
+       <property name="text">
+        <string>Login</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="create">
+       <property name="text">
+        <string>Create</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1140</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <widget class="QMenu" name="menuSomething">
+     <property name="title">
+      <string>Something</string>
+     </property>
+     <addaction name="actionReally"/>
+    </widget>
+    <widget class="QMenu" name="menuSomething_else">
+     <property name="title">
+      <string>Something else</string>
+     </property>
+     <addaction name="actionAgain_and_again"/>
+    </widget>
+    <addaction name="menuSomething"/>
+    <addaction name="menuSomething_else"/>
+   </widget>
+   <widget class="QMenu" name="menuEdit">
+    <property name="title">
+     <string>Edit</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuHelp">
+    <property name="title">
+     <string>Help</string>
+    </property>
+    <addaction name="actionReally_2"/>
+    <addaction name="actionThere"/>
+    <addaction name="actionis"/>
+    <addaction name="actionNothing"/>
+    <addaction name="actionhere"/>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuEdit"/>
+   <addaction name="menuHelp"/>
+  </widget>
+  <action name="actionReally">
+   <property name="text">
+    <string>Really??</string>
+   </property>
+  </action>
+  <action name="actionAgain_and_again">
+   <property name="text">
+    <string>Again and again</string>
+   </property>
+  </action>
+  <action name="actionReally_2">
+   <property name="text">
+    <string>Really?</string>
+   </property>
+  </action>
+  <action name="actionThere">
+   <property name="text">
+    <string>There</string>
+   </property>
+  </action>
+  <action name="actionis">
+   <property name="text">
+    <string>is</string>
+   </property>
+  </action>
+  <action name="actionNothing">
+   <property name="text">
+    <string>Nothing</string>
+   </property>
+  </action>
+  <action name="actionhere">
+   <property name="text">
+    <string>here</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
